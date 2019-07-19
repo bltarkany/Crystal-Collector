@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+
+    <!-- reset css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" id="jumbo">
+            <h1 class="display-4">Crystals Collector</h1>
+            <p class="lead">Can you collect the correct number of crystals?</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Instructions
+                    </div>
+                    <div class="card-body">
+                        You will be given a collector's score at the start of the game.
+                        <br>
+                        There are four crystals below. By clicking on a cyrstal you will add a specific amount of points
+                        to your score.
+                        <br>
+                        You win the game by matching you total score to the collector's score. You'll lose the game if
+                        your total score goes over the collector's.
+                        <br>
+                        The value of each crystal is hidden until you click on it.
+                        <br>
+                        And each time a new game starts, the values of the crystals will change.
+                        <br>
+                        Good Luck!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        Collector's Score
+                    </div>
+                    <div class="card-body text-center" id="colScore">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        Your Score
+                    </div>
+                    <div class="card-body text-center" id="yourScore">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        Crystal Choices
+                    </div>
+                    <div class="card-body text-center" id="cPic">
+                        <img src="assets/images/blue.jpg" alt="image" id="blue" width="100px" height="100px">
+                        <img src="assets/images/green.jpg" alt="image" id="green" width="100px" height="100px">
+                        <img src="assets/images/orange.jpg" alt="image" id="orange" width="100px" height="100px">
+                        <img src="assets/images/red.jpg" alt="image" id="red" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        Wins
+                    </div>
+                    <div class="card-body text-center" id="wins">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        Losses
+                    </div>
+                    <div class="card-body text-center" id="losses">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        Game Status
+                    </div>
+                    <div class="card-body text-center" id="status">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

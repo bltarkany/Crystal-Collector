@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/background.jpg");
+    font-family: 'Shadows Into Light', cursive;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.contanier {
+    width: 960px;
+}
+
+#jumbo {
+    background-color: lavender;
+    text-align: center;
+}
+
+.card-header {
+    text-align: center;
+}
+
