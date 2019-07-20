@@ -1,8 +1,9 @@
 body {
     background-image: url("../images/background.jpg");
     font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     
 }
 
@@ -11,11 +12,12 @@ body {
 }
 
 #jumbo {
-    background-color: lavender;
+    background-color: #ed7b84;
     text-align: center;
 }
 
 .card-header {
     text-align: center;
+    background-color: #f5dbcb;
 }
 

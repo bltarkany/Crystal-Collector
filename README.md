@@ -4,7 +4,7 @@
 
 1. Improving abilities to change html through javascript/jQuery
 2. Further use of global functions
-3. Adding more audio attributes
+3. Adding shortened syntax to the full game play process by using functions
 4. Emphasizing the use of values
 
 ### Overview
