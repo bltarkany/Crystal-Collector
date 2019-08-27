@@ -15,7 +15,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 ### CrystalsCollector Game
 
 
-1. ![crystal collector]( https://github.com/bltarkany/TrainScheduler/blob/master/assets/images/gamepic.png)
+1. ![crystal collector]( https://github.com/bltarkany/Crystal-Collector/blob/master/assets/images/gamepic.png)
 
 
 2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
