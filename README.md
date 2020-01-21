@@ -1,5 +1,7 @@
 # Crystal Collector
 
+In this project, you'll create another fun and interactive game for web browsers. This app will dynamically update your HTML pages with the jQuery library.
+
 ## Reiterating jQuery concepts
 
 1. Improving abilities to change html through javascript/jQuery
@@ -9,7 +11,7 @@
 
 ### Overview
 
-In this assignment, you'll create another fun and interactive game for web browsers. This time, your app must dynamically update your HTML pages with the jQuery library.
+Reiterating jQuery concepts:
 
 
 ### CrystalsCollector Game
