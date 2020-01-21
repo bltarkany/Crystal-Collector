@@ -37,7 +37,7 @@ function crystalRandom(min, max) {
 }
 
 // add values to crystals and to your score
-function addvalues(cryValue) {
+function addValues(cryValue) {
     yourScore = yourScore + cryValue.value;
     $("#yourScore").html(yourScore);
     winLose();
@@ -110,16 +110,16 @@ $(document).ready(function () {
     restartGame();
 
     $("#blue").on("click", function () {
-        addvalues(cryValue.blue);
+        addValues(cryValue.blue);
     });
     $("#green").on("click", function () {
-        addvalues(cryValue.green);
+        addValues(cryValue.green);
     });
     $("#orange").on("click", function () {
-        addvalues(cryValue.orange);
+        addValues(cryValue.orange);
     });
     $("#red").on("click", function () {
-        addvalues(cryValue.red);
+        addValues(cryValue.red);
     });
 
     // startGame();
