@@ -49,3 +49,7 @@ Reiterating jQuery concepts:
 * The random number shown at the start of the game should be between 19 - 120.
 
 * Each crystal should have a random hidden value between 1 - 12.
+
+* Utilize global functions to minimize game logic needs.
+
+* Usage of onClick methods can be applied to any crystal photo of your choice.
