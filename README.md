@@ -17,6 +17,9 @@ Reiterating jQuery concepts:
 
 1. ![crystal collector](https://github.com/bltarkany/Crystal-Collector/blob/master/assets/images/gamepic.png)
 
+   #### Demo Game Here
+      [Crystal Collector](https://bltarkany.github.io/Crystal-Collector/)
+
 
 2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
 
