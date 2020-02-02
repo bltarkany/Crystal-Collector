@@ -6,6 +6,7 @@ var lossCount = 0;
 var colScore = 0;
 var yourScore = 0;
 
+// crystal values storage
 var cryValue = {
     blue: {
         value: 0
@@ -23,6 +24,7 @@ var cryValue = {
 
 
 // global functions
+// ======================================
 
 // create a random collector score to reach
 function colScoreCreate() {
