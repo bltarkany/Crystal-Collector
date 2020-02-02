@@ -42,6 +42,7 @@ function crystalRandom(min, max) {
 function addValues(cryValue) {
     yourScore = yourScore + cryValue.value;
     $("#yourScore").html(yourScore);
+    // game win/loss check
     winLose();
     console.log("your Score: " + yourScore);
 }
