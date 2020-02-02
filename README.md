@@ -44,6 +44,10 @@ Reiterating jQuery concepts:
 
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
+4. Follow GitHub instruction in Setting to deploy page.
+
+5. Share with friends and family to enjoy.
+
 ##### Game design notes
 
 * The random number shown at the start of the game should be between 19 - 120.
