@@ -53,3 +53,5 @@ Reiterating jQuery concepts:
 * Utilize global functions to minimize game logic needs.
 
 * Usage of onClick methods can be applied to any crystal photo of your choice.
+
+* Creating a win/loss game check global function allows you to call it in multiple locations.
